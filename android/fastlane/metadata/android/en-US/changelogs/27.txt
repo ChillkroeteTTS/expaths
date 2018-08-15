@@ -1,0 +1,2 @@
+- fix bug where position couldn't get determined when gps was turned on while the app was running
+- Add button to send bug reports

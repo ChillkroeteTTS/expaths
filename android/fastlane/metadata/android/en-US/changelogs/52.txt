@@ -1,0 +1,8 @@
+--Home--
+- increase clickable area of tour tiles
+- add and edit tour button redesign
+- delete button
+
+--Follow Tour--
+- Smoothen animations
+- Rate tour modal closes again after rating

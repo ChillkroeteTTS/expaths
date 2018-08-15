@@ -1,0 +1,9 @@
+-- Edit Tour Screen --
+- Use Nelsons Design
+
+-- Edit Location --
+- Use Nelsons Design
+- Select place by click
+
+-- Follow Tour --
+- Use Nelsons Design

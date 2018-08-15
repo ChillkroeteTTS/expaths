@@ -1,0 +1,7 @@
+-- Menu --
+- hopefully fix not visible menu button
+- add basic menu
+
+-- Explore Screen --
+- fix finish tour button
+- prettify Tour description bar

@@ -1,0 +1,4 @@
+--General--
+- fix send bug report
+--Sign in screen--
+- Google button sticks to the button when virtual keyboard appears

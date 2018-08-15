@@ -1,0 +1,6 @@
+-- GENERAL --
+- Account creation is necessary to use the app
+- Implemented auto login (login will survive restart)
+- Added Sign Up Screen
+- Added Sign In Screen
+- Added Sign Out option to menu

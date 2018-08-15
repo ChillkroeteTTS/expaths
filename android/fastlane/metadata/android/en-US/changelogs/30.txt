@@ -1,0 +1,9 @@
+-- GENERAL --
+- Check only each 30 seconds for new gps position
+- New location provider, hopefully fixes gps bug on xiaomi devices
+
+-- Home Screen --
+- Tours can be reloaded by swiping tour list down
+
+-- Add/Edit Location Screen --
+- Show tour markers

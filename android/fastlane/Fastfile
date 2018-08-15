@@ -1,0 +1,54 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# Please provide the following env variables for build
+# RELEASE_STORE_PATH
+# RELEASE_STORE_PW
+# RELEASE_KEY_ALIAS
+# RELEASE_KEY_ALIAS
+# GOOGLE_SERVICES_JSON_PATH
+# GOOGLE_PLAY_SECRET_PATH in ./localprod.env
+
+default_platform(:android)
+
+platform :android do
+  lane :dev do
+    sh("./build_cljs.sh")
+    sh("python ./bump_version.py")
+    gradle(
+      task: 'assemble',
+      build_type: 'Release'
+    )
+    upload_to_play_store(
+      track: "beta",
+      json_key: "/creds/google_play_secret.json",
+      apk_paths: ["app/build/outputs/apk/release/app-release.apk"]
+    )
+    sh("cp build.gradle.bck ../app/build.gradle")
+  end
+
+  lane :prod do
+    sh('python ./nightly.py')
+    sh("./change-to-prod.sh")
+    sh("./build_cljs.sh")
+    sh("python ./bump_version.py")
+    gradle(
+      task: 'assemble',
+      build_type: 'Release'
+    )
+    upload_to_play_store(
+      track: "beta",
+      json_key: "/creds/google_play_secret.json",
+      apk_paths: ["app/build/outputs/apk/release/app-release.apk"]
+    )
+    sh("cp build.gradle.bck ../app/build.gradle")
+  end
+end

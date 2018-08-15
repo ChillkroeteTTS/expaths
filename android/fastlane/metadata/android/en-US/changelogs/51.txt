@@ -1,0 +1,8 @@
+--General--
+- Tour names have a character maximum of 30
+- Place names have a character maximum of 30
+- Places have descriptions with a character maximum of 234
+- Places with type marker have neither names nor descriptions
+
+--Follow Tour--
+- New Design

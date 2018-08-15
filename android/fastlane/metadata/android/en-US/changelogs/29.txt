@@ -1,0 +1,2 @@
+-- General --
+- Add loading screen for async requests to the backend

@@ -1,0 +1,6 @@
+--General--
+- minor bugfixed (no connection tour save, home tour deselect)
+-- Home --
+Use actual description
+-- Explore --
+Use actual description

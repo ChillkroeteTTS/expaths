@@ -1,0 +1,6 @@
+-- GENERAL --
+- calc distances new as soon as position changes (will be checked in a 30s interval)
+- fix bug where the loading screen causes the whole application to reload
+
+-- Add/Edit Location Screen --
+- Add button to go to current position

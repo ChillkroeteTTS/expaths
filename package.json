@@ -1,0 +1,40 @@
+{
+  "name": "tourme",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./android/assets"
+    ]
+  },
+  "dependencies": {
+    "@cljs-oss/module-deps": "^1.1.1",
+    "babel-plugin-transform-es2015-block-scoping": "6.15.0",
+    "react": "16.2.0",
+    "react-native": "0.55.4",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-firebase": "^4.0.3",
+    "react-native-geolocation-service": "^1.0.4",
+    "react-native-google-signin": "^0.12.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-maps-directions": "^1.6.0",
+    "react-native-permissions": "^1.1.1",
+    "react-native-switch-selector": "^1.1.5",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.4.0",
+    "source-map-support": "^0.5.5"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

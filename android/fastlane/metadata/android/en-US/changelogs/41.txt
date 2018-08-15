@@ -1,0 +1,10 @@
+-- Add Tour Screen --
+- Add button to add new locations (button was missing since redesign)
+- Tour can only be saved when a tour name with at least 3 characters is provided
+-- Add Location Screen --
+- Removed default Tour Name
+- Newly created locations are inserted behind the selected location instead of always creating it as last location
+-- Edit Location Screen --
+- Fix saving
+-- Home Screen --
+- Add toggle to filter on tours created by the current user

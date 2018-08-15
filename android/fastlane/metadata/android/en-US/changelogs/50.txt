@@ -1,0 +1,4 @@
+--General--
+- Add new place types cafe, restaurant, viewpoint
+- change start/end marker color
+- usability improvements

@@ -1,0 +1,7 @@
+Ever had the feeling that you want to explore a place but don't know where to start? Just follow the route locals and travelers from all over the world recommend!
+Expaths allows you to save the way you just took through a city so your friends and others can explore the same places you enjoyed. Mark nice restaurants and photo spots you found on your way and recommend them to fellow travelers who will follow your footsteps.
+
+This is a one man project so I can't hire lots of guys to test the app thoroughly. If you find a bug or experience a crash, please do not hesitate to write an email to expaths@chillkroetenteich.de or use the internal bug report function you can find in the menu.
+Have fun with the application and feel free to tell me what you like and what not :)
+
+Many thanks to Nelson Rainsborough who did almost the whole the design and the Application Logo.

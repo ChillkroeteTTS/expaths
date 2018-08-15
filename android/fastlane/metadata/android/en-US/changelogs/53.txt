@@ -1,0 +1,2 @@
+** HOTIFX **
+- fixes crash on startup

@@ -1,0 +1,2 @@
+--General--
+- Add Password reset functionality accessible over sign in screen

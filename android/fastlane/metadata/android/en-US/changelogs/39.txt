@@ -1,0 +1,10 @@
+-- GENERAL --
+- Tours have now an owner once created. Old tours will be owned by the one who first saves them.
+- Tours can only be edited by their owner.
+
+-- MENU --
+- Email of logged in user shown in menu screen
+
+-- HOME-SCREEN --
+- Start points of tours are always shown on map and selectable
+- Fix bug where map didn't zoom to tour markers
